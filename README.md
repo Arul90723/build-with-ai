@@ -1,12 +1,12 @@
 # Project Name
+MARKET ANALYSIS(TEAM NAME:ALGORITHM PIONEERS)
 
 ## Problem Statement
-Explain clearly what problem your project is solving.
-
+ Build an agricultural market insight tool to help farmers with pricing decisions
 ## Project Description
-Describe your solution, how it works, and what makes it useful.
+Farmers face significant challenges in accessing real-time and predictive market insights, leading to poor pricing decisions and reduced income. Due to a lack of awareness about price fluctuations, demand trends, and optimal selling locations, farmers often sell their produce at suboptimal prices.
 
----
+There is a need for an intelligent system that leverages AI and data analytics to provide farmers with accurate price predictions, demand insights, and actionable recommendations to maximize their profits and reduce uncertainty in agricultural markets.
 
 ## Google AI Usage
 ### Tools / Models Used
