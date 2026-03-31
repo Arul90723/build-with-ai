@@ -9,13 +9,46 @@ Farmers face significant challenges in accessing real-time and predictive market
 
 There is a need for an intelligent system that leverages AI and data analytics to provide farmers with accurate price predictions, demand insights, and actionable recommendations to maximize their profits and reduce uncertainty in agricultural markets.
 ## Google AI Usage
+Core AI Engine
+Google Gemini API (Gemini Pro / Gemini 1.5)
+Used as the primary AI model to power summarization, explanation, and content understanding in the application.
+
 ### Tools / Models Used
-- 
+- AI Models
+Google Gemini (Gemini Pro / Gemini 1.5)
+Used for text summarization and content understanding
+Handles long-context inputs (useful for books and large documents)
+Supports multiple summarization styles (short, detailed, bullet points)
+💻 Frontend
+React
+Builds interactive user interface
+Tailwind CSS
+Provides modern and responsive styling
+🧩 Backend
+Node.js + Express (or FastAPI alternative)
+Handles API requests and integrates AI model
+Manages secure API key usage
+📄 File Processing
+pdf-parse
+Extracts text from PDF files
+mammoth.js
+Processes Word documents
+🔐 Environment & Security
+dotenv
+Secures API keys using .env files
+🌐 Deployment (Optional)
+Vercel
+Frontend hosting
+Render or Railway
+Backend hosting
+⚙️ Additional Tools
+Git + GitHub
+Version control and collaboration
+Postman
+Testing backend endpoints
 
 ### How Google AI Was Used
-Explain clearly how AI is integrated into your project.
 
----
 
 ## Proof of Google AI Usage
 Attach screenshots in a /proof folder:
