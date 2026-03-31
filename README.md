@@ -1,3 +1,24 @@
+#Project Name
+AI SUMMARIZE(TEAM NAME:ALGORITHM PIONEERS)
+#Problem Statement
+Build an AI research assistant to help students explore and summarize content
+Explain clearly what problem your project is solving.
+
+#Project Description
+Farmers face significant challenges in accessing real-time and predictive market insights, leading to poor pricing decisions and reduced income. Due to a lack of awareness about price fluctuations, demand trends, and optimal selling locations, farmers often sell their produce at suboptimal prices.
+
+There is a need for an intelligent system that leverages AI and data analytics to provide farmers with accurate price predictions, demand insights, and actionable recommendations to maximize their profits and reduce uncertainty in agricultural markets.
+
+
+
+
+
+
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
