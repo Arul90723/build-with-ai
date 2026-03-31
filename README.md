@@ -27,8 +27,8 @@ Attach screenshots in a /proof folder:
 ## Screenshots 
 Add project screenshots:
 
-![Screenshot1](./assets/screenshot1.png)  
-![Screenshot2](./assets/screenshot2.png)
+![Screenshot1](./assets/Screenshot 2026-03-31 160920.png)  
+![Screenshot2](./Screenshot 2026-03-31 160848.png)
 
 ---
 
