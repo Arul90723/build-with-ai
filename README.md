@@ -1,92 +1,73 @@
-# Project Name
-SUMMARIZER(TEAM NAME:ALGORITHM PIONEERS)
+# React + TypeScript + Vite
 
-## Problem Statement
- Build an AI research assistant to help students explore and summarize content
-## Project Description
-AI Research Assistant for Students
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Students today face an overwhelming amount of information when conducting research. Academic articles, websites, videos, and reports are scattered across multiple platforms, often written in complex language that is difficult to understand. This creates several key challenges:
+Currently, two official plugins are available:
 
-Information Overload
-Students struggle to identify relevant and credible sources from vast amounts of data available online.
-Time-Consuming Research Process
-Reading lengthy documents, extracting key points, and synthesizing information can take hours, reducing time available for analysis and learning.
-Difficulty in Comprehension
-Academic and technical materials often contain jargon or advanced concepts that are hard for students to interpret, especially for beginners.
-Lack of Structured Summaries
-Students need concise, well-organized summaries, but most sources do not provide simplified or structured insights.
-Poor Cross-Source Integration
-Combining insights from multiple sources into a coherent understanding is challenging without guidance.
-Limited Personalization
-Existing tools do not adapt to a student’s learning level, subject focus, or preferred style of explanation.
-Core Problem
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-There is a need for an intelligent system that can assist students in efficiently exploring, understanding, and summarizing research content in a way that is:
+## React Compiler
 
-Accurate and reliable
-Easy to understand
-Time-efficient
-Personalized to the learner
-Objective
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Design and build an AI-powered research assistant that:
+## Expanding the ESLint configuration
 
-Helps students discover relevant sources
-Summarizes complex content into clear, concise insights
-Explains difficult concepts in simple terms
-Organizes information into structured formats (notes, bullet points, comparisons)
-Supports multi-source synthesis for deeper understanding
-Desired Impact
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-By solving this problem, the AI assistant will:
+```js
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
 
-Improve learning efficiency
-Reduce cognitive overload
-Enhance research quality
-Support independent learning and critical thinking
+      // Remove tseslint.configs.recommended and replace with this
+      tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      tseslint.configs.stylisticTypeChecked,
 
-## Google AI Usage
-### Tools / Models Used
-- 
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
 
-### How Google AI Was Used
-Explain clearly how AI is integrated into your project.
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
----
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-## Proof of Google AI Usage
-Attach screenshots in a `/proof` folder:
-
-![AI Proof](./proof/screenshot1.png)
-
----
-
-## Screenshots 
-Add project screenshots:
-
-![Screenshot1](./assets/screenshot1.png)  
-![Screenshot2](./assets/screenshot2.png)
-
----
-
-## Demo Video
-Upload your demo video to Google Drive and paste the shareable link here(max 3 minutes).
-[Watch Demo](#)
-
----
-
-## Installation Steps
-
-```bash
-# Clone the repository
-git clone <your-repo-link>
-
-# Go to project folder
-cd project-name
-
-# Install dependencies
-npm install
-
-# Run the project
-npm start
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
