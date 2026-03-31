@@ -60,8 +60,12 @@ https://drive.google.com/file/d/1AsYSELpQvX-NRGIiki_g6KsqAchABABI/view?usp=shari
 ## Screenshots 
 Add project screenshots:
 
-![Screenshot1](https://drive.google.com/file/d/1cGqYwUIBXEoPcSxNP136g0mtyUQImNQG/view?usp=sharing)  
-![Screenshot2](https://drive.google.com/file/d/1gTxtctYB3S--s_R_p1f8WTGseq89RD6q/view?usp=sharing)
+
+(https://drive.google.com/file/d/1cGqYwUIBXEoPcSxNP136g0mtyUQImNQG/view?usp=sharing)  
+
+
+
+(https://drive.google.com/file/d/1gTxtctYB3S--s_R_p1f8WTGseq89RD6q/view?usp=sharing)
 
 ---
 
