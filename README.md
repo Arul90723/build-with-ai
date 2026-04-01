@@ -28,7 +28,7 @@ Attach screenshots in a `/proof` folder:
 Add project screenshots:
 
 [https://drive.google.com/file/d/1eMYfgjJZ9U27EBtLYNJolQKwOh4VWMFP/view?usp=sharing]  
-![Screenshot2](./assets/screenshot2.png)
+[https://drive.google.com/file/d/1DkO89cnDcYqrBqD65BKwMao0qF6p6E3t/view?usp=sharing]
 
 ---
 
