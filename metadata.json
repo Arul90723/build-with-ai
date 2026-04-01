@@ -1,0 +1,8 @@
+{
+  "name": "OmniSummarize AI",
+  "description": "Context-Aware Multi-Format Smart Summarization Platform powered by Gemini AI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
