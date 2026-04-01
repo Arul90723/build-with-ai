@@ -18,9 +18,7 @@ Explain clearly how AI is integrated into your project.
 ---
 
 ## Proof of Google AI Usage
-Attach screenshots in a `/proof` folder:
-
-![AI Proof](./proof/screenshot1.png)
+[https://drive.google.com/file/d/1wbGLrYnqn30hXINp4Mg-zbRqe96XB5LU/view?usp=sharing]
 
 ---
 
